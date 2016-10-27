@@ -1,0 +1,220 @@
+html{
+	font-size: 62.5%;
+}
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+}
+a{
+	color: #000000;
+}
+
+.site_header{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 55px;
+	margin-bottom: 0;
+
+}
+.title{
+	background-color: #f3ce00;	
+	background-image: url("img/logo.png");
+	background-position: left 1px ;
+	background-repeat: no-repeat;
+	font-size: 2.2rem;
+	text-shadow: 1px 1px #000000;
+	color: #ffffff;
+	text-align: right;	
+	margin-top: 10px;
+	margin-bottom: 13px;
+	margin-left: 40px;
+	margin-right: 296px;
+	padding-right: 40px;
+	padding-top: 17px;
+	padding-bottom: 20px;
+	z-index: 100;
+	position: relative;
+}
+#intro{
+	background-image: url("img/pipes1.jpg");
+	\background-position: left top ;
+	background-size:  75% auto ;
+	margin: 0;
+	position: relative;
+	top: -49px;
+	z-index:  0;
+}
+.intro-content-contener{
+	width: 50%;
+	background-color: #ffffff;
+	float: right;
+	
+}
+.intro-content{
+	width: 480px;
+	padding-top: 60px;
+	padding-left: 23px;
+}
+.intro-content h2{
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	margin-bottom: 0px;
+	margin-top: 70px;
+}
+.intro-content h2+p{
+	margin-top: 0px;
+}
+.intro-content> p{
+	margin-bottom: 30px;
+}
+.intro-content p{
+	font-size: 1.5rem;
+}
+.contact{
+	margin-bottom: 60px;
+}
+.contact h3{
+	font-size: 1.9rem;
+	margin-bottom: 0;
+}
+.contact p{
+	margin-top: 5px;
+	margin-bottom: 5px;;
+}
+
+
+aside{
+	background-image: url("img/pipes2.jpg");
+	background-position: right top ;
+	/*background-size: calc(50% + 480px);*/
+	background-size: auto 208px;
+	background-repeat: no-repeat;
+	width: calc(50% + 480px);
+	height: 350px;
+	margin: 0;
+	margin-left: calc(50% - 480px);
+	display: block;
+	position: relative;
+	z-index: 0;
+}
+aside p{
+	position: absolute;
+	bottom: 111px;
+	left:  125px;
+	color: #ffffff;
+	background-color: #000000;
+	margin: 0;
+	padding-left: 200px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.1rem;
+	text-align: right;
+	-webkit-box-shadow: 4px 3px 2px -2px rgba(136,136,136,1);
+	-moz-box-shadow: 4px 3px 2px -2px rgba(136,136,136,1);
+	box-shadow: 4px 3px 2px -2px rgba(136,136,136,1);
+	
+}
+
+footer p{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0px;
+	font-size: 1.6rem;
+	text-align: center;
+	position: relative;
+	top: -50px;
+}
+@media only screen and (max-device-width : 499px)  {
+	.site_header{
+		width: 100%;
+		margin: 0;		
+	}
+	.title{
+		margin: 0;
+		padding-top: 100px;
+		padding-left: 10px;
+		text-align: left;
+	}
+	#intro{
+	background-size:  100% ;
+	margin: 0;
+	padding-top: 200px;
+	}
+	.intro-content-contener{
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}	
+	.intro-content{
+		padding-top: 0px;
+		width: 95%;
+	}
+	.intro-content h2{
+		padding-top: 10px;
+	}
+	aside{
+		width: 100%;
+		margin-left: 0;
+	}
+	aside p{
+		padding: 20px 10px 20px 20px;
+		left: 0px;
+	}
+}
+@media only screen and (min-device-width : 500px) and  (max-device-width : 639px) {
+	.site_header{
+		width: 100%;
+	}
+	.title{
+		margin: 0;
+	}
+	#intro{
+	background-size:  100% ;
+	margin: 0;
+	padding-top: 200px;
+	}
+	.intro-content-contener{
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+	}	
+	.intro-content{
+		padding-top: 0px;
+	}
+	.intro-content h2{
+		padding-top: 10px;
+	}
+	aside{
+		width: 100%;
+		margin-left: 0;
+	}
+	aside p{
+		padding: 20px 10px 20px 20px;
+		left: 0px;
+	}
+}
+@media only screen and (min-device-width : 640px) and (max-device-width : 960px) {
+	.site_header{
+		width: 640px;
+	}
+	.title{
+		margin-right: 0;
+	}
+	.intro-content{
+		width: 93%;
+		padding-right: 2%;
+		padding-left: 4%;
+	}
+	aside{
+		width: 90%;
+		margin-left: 10%;
+	}
+	aside p{
+		padding: 20px 10px 20px 20px;
+		left: 95px;
+	}
+
+}
